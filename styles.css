@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/*My Pretty About Me project stylesheet
+Eric Morgan
+1/23/21
+*/
+html {
+  background-color: darkslategray;
+}
+
+/* Centers the body to look more uniform
+and look off-white.
+*/
+body {
+  background-color: mintcream;
+  padding: 5% 5% 4% 4%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: Verdana, sans-serif;
+}
+
+/* Bolder header font without bolding */
+h1, h2 {
+  text-align: center;
+  font-family: 'Coda Caption', Verdana, sans-serif;
+}
+
+/* Gives this header a retro game look */
+#bit-font {
+  font-family: 'Press Start 2P',Verdana, sans-serif;
+  font-size: 14pt;
+}
+
+/* Gives the other h2s a solid, centered outline */
+h2 {
+  outline-style: solid;
+  outline-color: darkslategray;
+  outline-width: medium;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 0%;
+}
+
+/* Changes bullet points to squares  */
+aside > ul > li {
+  list-style-type: square;
+  font-size: 20px;
+  margin-left: 50%;
+}
+
+/* Changes nav display to be centered with
+a solid dark gray outline
+*/
+nav ul li {
+  display: table-cell;
+  text-align: center;
+  outline-style: solid;
+  outline-color: darkslategray;
+}
+
+/* Nav is more rectangular and wide regardless of monitor size
+*/
+nav {
+  display: table;
+  width: 70%;
+  margin: auto;
+  float: none;
+}
+
+/* Dispays nav in a row*/
+nav ul {
+  display: table-row;
+}
+
+/* More control over nav font size */
+nav ul li {
+  font-family: Verdana, sans-serif;
+  font-size: 0.9em;
+}
+
+/* Nav appears fuller with white text for readability */
+nav ul li a {
+  color: mintcream;
+  text-decoration: none;
+  display: block;
+}
+
+/* Nav links get teal background-color */
+a.home, a.hobby, a.cape {
+  background-color: teal;
+}
+
+/* Lighter shade of blue while hovering over nav
+links */
+nav ul li a:hover {
+  background-color: cadetblue;
+}
+
+/* Indents p elements of header tag */
+header > p {
+  text-indent: 25px;
+  font-size: 12pt;
+}
+
+/* Aside text centered */
+aside > p {
+  text-align: center;
+  font-size: 14pt;
+}
+
+/* Moves footer info towards bottom right */
+footer > p {
+  text-align: right;
+  font-size: 8pt;
+  padding-top: 12px;
+}
+
+/* Centers index and hobby page images */
+img.bridge, .games {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
